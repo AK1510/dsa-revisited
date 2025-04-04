@@ -10,8 +10,8 @@ public class Main {
 //
 //        myLinkedList.printList();
 //        System.out.println("--------");
-        myLinkedList.append(5);
-        myLinkedList.append(6);
+//        myLinkedList.append(5);
+//        myLinkedList.append(6);
         // 2 items- returns 2 nodes
         //System.out.println(myLinkedList.removeFirst());
         // 1 item- returns 1 node
@@ -29,11 +29,20 @@ public class Main {
         //myLinkedList.printList();
         //System.out.println(myLinkedList.setNode(2,7));
 
-        System.out.println("-------");
-        myLinkedList.printList();
-        System.out.println("-------");
-        myLinkedList.printList(myLinkedList.reverse());
+//        System.out.println("-------");
+//        myLinkedList.printList();
+//        System.out.println("-------");
+//        myLinkedList.printList(myLinkedList.reverse());
 
+        SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
+        singlyLinkedList.push(5); // Success
+        singlyLinkedList.push(10); // Success
+        System.out.println(singlyLinkedList.size);  // 2
+        System.out.println(singlyLinkedList.pop()); // 10
+
+        System.out.println(singlyLinkedList.size);  // 1
+        System.out.println(singlyLinkedList.pop()); // 5
+        System.out.println(singlyLinkedList.pop()); // The SLL does not exist
 
     }
 }

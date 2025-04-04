@@ -7,9 +7,18 @@ public class SlidingWindow {
         System.out.println(maxProfit(prices));
     }
 
+    public int mostWordsFound(String[] sentences) {
+        int maxLength = 0;
+
+        for(String sentence : sentences){
+            int length = sentence.strip().split(" ").length;
+            maxLength = Math.max(maxLength, length);
+        }
+
+        return maxLength;
+    }
     private static int maxProfit(int[] prices) {
         if( prices.length < 1) return 0;
-
         int maxP = 0;
         int left = 0;
         int right = 1;

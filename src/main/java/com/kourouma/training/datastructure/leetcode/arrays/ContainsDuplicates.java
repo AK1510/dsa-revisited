@@ -13,8 +13,12 @@ public class ContainsDuplicates {
         int[] nums2 = {1,2,3,4};
         System.out.println(findDuplicateV2(nums1));
         System.out.println(findDuplicateV2(nums2));
-    }
 
+
+    }
+    public int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
+        return (int) Arrays.stream(hours).filter( e -> e >= target).count();
+    }
     private static boolean findDuplicate(int[] nums){
         Set<Integer> nonDuplicate = Arrays.stream(nums).boxed().collect(Collectors.toSet());
         return nonDuplicate.size() != nums.length;

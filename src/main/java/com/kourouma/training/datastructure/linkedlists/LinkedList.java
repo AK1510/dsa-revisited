@@ -185,10 +185,10 @@ public class LinkedList {
           Node prev = null;
 
           while (current != null){
-              Node tmp = current.next;
+              Node next = current.next;
               current.next = prev;
               prev = current;
-              current = tmp;
+              current = next;
           }
 
           return prev;
