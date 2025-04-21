@@ -1,14 +1,13 @@
 package com.kourouma.training.datastructure.arrays;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class DuplicatesRemoval {
 
     public static void main(String[] args) {
-        int[] array = {1, 1, 2, 2, 3, 4, 5};
-        System.out.println(Arrays.toString(removeDuplicatesV2(array)));
+        Integer[] array = {1, 1, 2, 2, 3, 4, 5};
+        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(filterDuplicates(array)));
     }
 
     public static int[] removeDuplicates(int[] array) {
@@ -46,5 +45,14 @@ public class DuplicatesRemoval {
 
         return Arrays.copyOf(uniqueArray, index);
     }
-
+    public static  Integer[] filterDuplicates(Integer[] data) {
+        Set<Integer> seen = new HashSet<>();
+        List<Integer> result = new ArrayList<>();
+        for (int element : data) {
+            if (seen.add(element)) { // Returns true if the element was not present
+                result.add(element);
+            }
+        }
+        return result.toArray(Arrays.copyOf(data, result.size()));
+    }
 }

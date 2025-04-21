@@ -1,0 +1,15 @@
+
+[
+java:S1854"@Remove this useless assignment to local variable "myLinkedList".(•ºîŒüÿÿÿÿ
+L
+java:S1481"1Remove this unused "myLinkedList" local variable.(•ºîŒüÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(œ‚¡âúÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(éõ¢Õ
+V	java:S125"<This block of commented-out lines of code should be removed.(÷›Ù°ÿÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(éõ¢Õ
+V	java:S125 "<This block of commented-out lines of code should be removed.(È«ñÇúÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(˜‚ªêûÿÿÿÿ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(…ÆË
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(Ëþ¶üþÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(£õË
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(ù­¬

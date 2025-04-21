@@ -1,0 +1,15 @@
+Process for problem solving I use in leetcode:
+
+    1. Read the problem twice to understand it - ( ask clarifying questions)
+
+    2. Try to think basically of different way to solve the problem
+
+    3. Think end-to-end (e2e) of the best solutions bases on  complexity
+
+    4. Write the algorithm from patterns in drawing
+
+    5. Code it out
+
+    6. Try and improve it once you think you're finished
+
+    7. Go through other solutions (even if you answered correctly)

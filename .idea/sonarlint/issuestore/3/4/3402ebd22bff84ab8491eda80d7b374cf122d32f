@@ -1,0 +1,19 @@
+
+L
+java:S1854
+"7Remove this useless assignment to local variable "arr".(œüë`
+N
+java:S1854	"9Remove this useless assignment to local variable "nums2".(Íş¹N
+?
+java:S1481	"*Remove this unused "nums2" local variable.(Íş¹N
+?
+java:S1197
+"*Move the array designators [] to the type.(œüë`
+=
+java:S1481
+"(Remove this unused "arr" local variable.(œüë`
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ö‰×ıÿÿÿÿ
+M	java:S106("9Replace this use of System.out or System.err by a logger.(ºÉB
+N	java:S106."9Replace this use of System.out or System.err by a logger.(õàı
+K
+java:S1144"5Remove this unused private "calculateProduct" method.(Ğ­×ß

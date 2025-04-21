@@ -1,0 +1,26 @@
+// Modifier la requête pour sélectionner uniquement les ids des clients (customer) ayant acheté au moins un produit dans la catégorie "Books" ou "Garden" (product_category). La sortie ne doit contenir aucun doublon et doit être triée par ordre croissant.
+
+select distinct  c.customer_id CUSTOMER_ID
+    from customer c
+        left join purchase_order po on c.customer_id = po.cusotmer_id
+        left join order_product op on po.order_id = op.order_id
+        left join product p on op.product_id = p.product_id
+        left join product_category pc on p.product_category_id = pc.product_category_id
+        where pc.name in ("Books", "Garden")
+        ORDER BY c.customer_id ASC;
+
+// Modifier la requête ci-contre pour lister le nombre de produits (product) disponibles par catégorie de produits (product_category).
+
+On ne listera pas les catégories de produits  ne contenant pas de produit.
+N'afficher que les colonnes CATEGORY_NAME (product_category.name) et PRODUCT_COUNT dans cet ordre.
+
+
+select
+
+
+//
+
+select city as city, count(*) as CUSTOMER_COUNT from CUSTOMER
+GROUP BY city
+HAVING count(*) >= 2
+ORDER BY city , CUSTOMER_COUNT;

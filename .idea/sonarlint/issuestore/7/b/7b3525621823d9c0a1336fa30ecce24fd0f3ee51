@@ -1,0 +1,11 @@
+
+R
+java:S1854
+"7Remove this useless assignment to local variable "tab".(ªøúÔûÿÿÿÿ
+C
+java:S1481
+"(Remove this unused "tab" local variable.(ªøúÔûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‹Èì•øÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ŸËÍ¬
+K
+java:S1144"0Remove this unused private "findIndices" method.(„Ì„èûÿÿÿÿ
