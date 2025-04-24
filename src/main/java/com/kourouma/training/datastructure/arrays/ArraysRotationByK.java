@@ -14,12 +14,16 @@ public class ArraysRotationByK {
 
     public static void main(String[] args) {
 
-        int[] nums = {1, 2, 3, 4, 5, 6};
+       // int[] nums = {1, 2, 3, 4, 5, 6};
+        int[] nums = {1,2,3,4,5,6,7};
 
         System.out.println("==========Before Rotation==========");
         System.out.println(Arrays.toString(nums));
         System.out.println("==========After Rotation==========");
-        System.out.println(Arrays.toString(rotateByLeft(nums, 3)));
+       // System.out.println(Arrays.toString(rotateByLeft(nums, 3)));
+
+        System.out.println("============ Right Rotation");
+        rotateByKRight(nums, 3);
     }
 
     private static int[] rotateByOneLeft(int[] nums) {
@@ -50,8 +54,6 @@ public class ArraysRotationByK {
 
     private static int[] rotateByKLeft(int[] nums, int k) {
 
-        String m = "dkdkdk";
-        m.length();
         int arrayLength = nums.length;
         k = k % arrayLength;
         int[] tmp = Arrays.copyOf(nums, k);
@@ -65,5 +67,21 @@ public class ArraysRotationByK {
         }
 
         return nums;
+    }
+    private static void rotateByKRight(int[] nums, int k) {
+
+        int arrayLength = nums.length;
+        k = k % arrayLength;
+        int[] tmp = Arrays.copyOfRange(nums, arrayLength - k ,arrayLength);
+
+        for (int i = arrayLength-k-1;  i >= 0; i--) {
+            nums[i + k] = nums[i];
+        }
+        System.out.println(Arrays.toString(tmp));
+        for (int i = 0; i < k; i++) {
+            nums[i] = tmp[i];
+        }
+
+        System.out.println(Arrays.toString(nums));
     }
 }

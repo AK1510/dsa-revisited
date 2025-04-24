@@ -8,6 +8,8 @@ public class DuplicatesRemoval {
         Integer[] array = {1, 1, 2, 2, 3, 4, 5};
         System.out.println(Arrays.toString(array));
         System.out.println(Arrays.toString(filterDuplicates(array)));
+        System.out.println(0.1*2);
+        System.out.println(0.1*3);
     }
 
     public static int[] removeDuplicates(int[] array) {

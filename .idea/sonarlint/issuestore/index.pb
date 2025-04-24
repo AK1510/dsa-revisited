@@ -17,9 +17,6 @@ r
 Bsrc/main/java/com/kourouma/training/datastructure/graph/Graph.java,a/6/a6fe01ca4ef94c04cacdf6bb27ea1445341b83a7
 v
 Fsrc/main/java/com/kourouma/training/datastructure/graph/GraphNode.java,8/2/8211302db1a1e2f75b2ff40d71d98634d08de5c3
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 u
 Esrc/main/java/com/kourouma/training/datastructure/codingame/Node.java,f/0/f05be45c529d1e9fcf359d0fe3780acaf6e047f2
 |
@@ -38,3 +35,15 @@ y
 Isrc/main/java/com/kourouma/training/datastructure/codingame/Accolade.java,b/5/b560e2a5d6060e57d8a35430238962a0b3916e3c
 ‡
 Wsrc/main/java/com/kourouma/training/datastructure/linkedlists/exercises/LinkedList.java,a/e/aebb73071d807405ac88c094f8a0700ada4231f5
+y
+Isrc/main/java/com/kourouma/training/datastructure/codingame/Messages.java,7/2/7242afa4bed1d5a35a5bf2311371e9fc5dc56f76
+
+Osrc/main/java/com/kourouma/training/datastructure/arrays/MoveZeroesInArray.java,0/b/0bb1b8a8622babf4b868252e5b4651669e804a79
+y
+Isrc/main/java/com/kourouma/training/datastructure/arrays/MaxSubArray.java,4/b/4beb6d89a62990ab1238c7125893c1605f246672
+}
+Msrc/main/java/com/kourouma/training/datastructure/linkedlists/LinkedList.java,1/4/1458949ec38280d29edbd0aee58d13e0c3ee644a
+|
+Lsrc/main/java/com/kourouma/training/datastructure/linkedlists/demo/Node.java,e/4/e4f31b0310bfac7b480338fccc3aa98554e29752
+
+Osrc/main/java/com/kourouma/training/datastructure/arrays/ArraysRotationByK.java,b/5/b555424c0487600336c31572c497c0d9038eacb1

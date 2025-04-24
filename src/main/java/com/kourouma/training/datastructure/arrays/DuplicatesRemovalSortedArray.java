@@ -12,7 +12,7 @@ public class DuplicatesRemovalSortedArray {
         int[] nums = {0, 0, 3, 3, 5, 6};
 
          System.out.println(removeDuplicates(nums));
-        List<Integer> list = Arrays.stream(nums).boxed().sorted().collect(Collectors.toList());
+       // List<Integer> list = Arrays.stream(nums).boxed().sorted().collect(Collectors.toList());
        // System.out.println(list);
         String str = "This is a string\nThis is the next line.\nHello world.";
 

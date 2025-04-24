@@ -64,4 +64,23 @@ public class MoveZeroesToEnd {
         System.out.println("=========");
 
     }
+
+    private static void moveZeroesV3(int[] nums){
+
+        int left = 0;
+
+        for (int right = 0; right < nums.length; right++) {
+
+            if(nums[right] != 0){
+                int tmp = nums[left];
+                nums[left] = nums[right];
+                nums[right] = tmp;
+                left++;
+            }
+        }
+
+        System.out.println("=========");
+        System.out.println(Arrays.toString(nums));
+        System.out.println("=========");
+    }
 }
